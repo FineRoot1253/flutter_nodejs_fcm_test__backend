@@ -5,9 +5,11 @@ let cookieParser = require('cookie-parser');
 let logger = require('morgan');
 
 
-
+// Express Generator 그대로 유지
 let indexRouter = require('./routes/index');
 let usersRouter = require('./routes/users');
+
+//Firebase Push notification middleware
 let sendPushmsg = require('./lib/auth/firebaseAuth');
 
 let app = express();
