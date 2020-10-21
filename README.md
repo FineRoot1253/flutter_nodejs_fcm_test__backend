@@ -6,7 +6,7 @@
 
 ## 사용법
 - 푸시알람을 보내는 방법은 다음과 같습니다.             
-"http://localhost:3000/?title=제목&body=내용&url=화면이동경로&target=ALL" 이렇게 요청을 보내면 
+"http://localhost:3000/?title=제목&body=내용&url=화면이동경로&target=ALL" 이렇게 요청을 보내면              
 제목과 내용을 알아서 채운 전체 푸시 알람이 보내집니다.              
 "http://localhost:3000/?target=ALL" 이렇게만 보내면             
 처음에 초기화한 제목인 "Default_Title_Text" 와 
