@@ -2,8 +2,6 @@
 
 ## FCM 테스트 백엔드 입니다.
 
-- 추후에 auth도 추가가 필요합니다.
-
 ## 사용법
 - 푸시알람을 보내는 방법은 다음과 같습니다.             
 post메소드를 사용하며 body에 내용을 담아 주셔야 합니다.
@@ -13,8 +11,8 @@ post메소드를 사용하며 body에 내용을 담아 주셔야 합니다.
 - body : 푸시알람의 내용  
 - url : 이동시킬 페이지의 url  
 - target : 목표 기기     
-    목표기기 : deviceToken(devToken)    
-    전체 : ALL  
+        목표기기 : deviceToken(devToken)    
+        전체 : ALL  
 **target은 반드시 넣어서 보내지 않으면 400 에러를 보냅니다.**      
           
 
