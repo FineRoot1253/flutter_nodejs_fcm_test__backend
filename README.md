@@ -14,7 +14,7 @@ post메소드를 사용하며 body에 내용을 담아 주셔야 합니다.
 - url : 이동시킬 페이지의 url  
 - target : 목표 기기     
     목표기기 : deviceToken(devToken)    
-    전체 : ALL
+    전체 : ALL  
 **target은 반드시 넣어서 보내지 않으면 400 에러를 보냅니다.**      
           
 
