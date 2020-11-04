@@ -5,7 +5,7 @@
 ## 사용법
 - 푸시알람을 보내는 방법은 다음과 같습니다.             
 post메소드를 사용하며 body에 내용을 담아 주셔야 합니다.
-총 **title, body, url, target** 4가지입니다.    
+총 **title, body, url, target, msgType, compCd** 6가지입니다.    
 
 - title : 푸시알람의 제목  
 - body : 푸시알람의 내용  
@@ -13,6 +13,8 @@ post메소드를 사용하며 body에 내용을 담아 주셔야 합니다.
 - target : 목표 기기     
         목표기기 : deviceToken(devToken)    
         전체 : ALL  
+- msgType : 메시지 타입(ex 게시판, 서류함 등등)
+- compCd : 목표 업체    
 **target은 반드시 넣어서 보내지 않으면 400 에러를 보냅니다.**      
           
 
