@@ -13,7 +13,8 @@ post메소드를 사용하며 body에 내용을 담아 주셔야 합니다.
 - target : 목표 기기     
         목표기기 : deviceToken(devToken)    
         전체 : ALL  
-- msgType : 메시지 타입(ex 게시판, 서류함 등등)
+- msgType : 메시지 타입(ex 게시판, 서류함 등등)    
+반드시 int로 구분해서 보내야함
 - compCd : 목표 업체    
 **target은 반드시 넣어서 보내지 않으면 400 에러를 보냅니다.**      
           
