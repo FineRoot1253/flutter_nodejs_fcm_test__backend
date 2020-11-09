@@ -11,9 +11,12 @@ post메소드를 사용하며 body에 내용을 담아 주셔야 합니다.
 - body : 푸시알람의 내용  
 - url : 이동시킬 페이지의 url  
 - target : 목표 기기     
-        목표기기 : deviceToken(devToken)    
-        전체 : ALL  
+        - 목표기기 : deviceToken(devToken)    
+        - 전체 : ALL  
 - msgType : 메시지 타입    
+        - 0 : 그룹핑용(사용금지)
+        - 1 : 게시판
+        - 2 : 서류함 
 **반드시 int로 구분해서 보내야 합니다.**
 - compCd : 목표 업체    
 **target을 넣어서 보내지 않으면 400 에러를 보냅니다. 반드시 넣으시기 바랍니다.**      
