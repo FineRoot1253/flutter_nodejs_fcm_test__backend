@@ -5,7 +5,7 @@
 ## 사용법
 - 푸시알람을 보내는 방법은 다음과 같습니다.             
 post메소드를 사용하며 body에 내용을 담아 주셔야 합니다.
-총 **title, body, url, target, msgType, compCd** 6가지입니다.    
+총 **title, body, url, target, msgType, compCd, userId** 7가지입니다.    
 
 - title : 푸시알람의 제목  
 - body : 푸시알람의 내용  
