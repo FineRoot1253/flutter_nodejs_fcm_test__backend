@@ -5,7 +5,7 @@
 ## 사용법
 - 푸시알람을 보내는 방법은 다음과 같습니다.             
 post메소드를 사용하며 body에 내용을 담아 주셔야 합니다.  
-총 **title, body, url, target, msgType, compCd, userId** 7가지입니다.    
+총 **title, body, url, target, msgType, compCd, userId, compNm** 8가지입니다.    
 
 - title : 푸시알람의 제목  
 - body : 푸시알람의 내용  
@@ -18,8 +18,9 @@ post메소드를 사용하며 body에 내용을 담아 주셔야 합니다.
     - '1'  게시판 
     - '2'  서류함    
 **반드시 int로 구분해서 보내야 합니다.**
-- compCd : 목표 업체    
+- compCd : 목표 업체 코드    
 - userId : 목표 업체의 아이디    
+- compNm : 목표 업체명    
 **target을 넣어서 보내지 않으면 400 에러를 보냅니다. 반드시 넣으시기 바랍니다.**      
           
 
